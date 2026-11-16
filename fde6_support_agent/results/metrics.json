@@ -1,0 +1,83 @@
+{
+  "conversations": 40,
+  "turns": 60,
+  "turn_accuracy": 1.0,
+  "resolved_without_human_pct": 77.5,
+  "expected_resolvable_pct": 77.5,
+  "handoff_precision": 1.0,
+  "handoff_recall": 1.0,
+  "bookings_made": 6,
+  "median_latency_ms": 4.78,
+  "max_latency_ms": 12.69,
+  "top_unanswered_questions": [
+    [
+      "do you sell new phones?",
+      1
+    ],
+    [
+      "can you unlock an icloud locked phone",
+      1
+    ],
+    [
+      "do you give emi on laptops",
+      1
+    ],
+    [
+      "what is the price of ps5 controller repair",
+      1
+    ],
+    [
+      "my number is 98 not sure",
+      1
+    ]
+  ],
+  "failures": [],
+  "heldout": {
+    "messages": 15,
+    "accuracy": 0.4667,
+    "wrong_answers": 1,
+    "safe_handoffs": 7,
+    "failures": [
+      {
+        "message": "till what time are you open today",
+        "expected": "faq:hours",
+        "got": "handoff"
+      },
+      {
+        "message": "what's the address",
+        "expected": "faq:location",
+        "got": "handoff"
+      },
+      {
+        "message": "price for changing the display of a redmi",
+        "expected": "faq:screen-price",
+        "got": "handoff"
+      },
+      {
+        "message": "my battery dies fast, how much to change it",
+        "expected": "faq:battery-price",
+        "got": "handoff"
+      },
+      {
+        "message": "what guarantee do i get after repair",
+        "expected": "faq:warranty",
+        "got": "handoff"
+      },
+      {
+        "message": "phone got wet in rain",
+        "expected": "faq:water-damage",
+        "got": "handoff"
+      },
+      {
+        "message": "do you fix realme phones",
+        "expected": "faq:brands",
+        "got": "faq:water-damage"
+      },
+      {
+        "message": "are the spare parts genuine",
+        "expected": "faq:original-parts",
+        "got": "handoff"
+      }
+    ]
+  }
+}

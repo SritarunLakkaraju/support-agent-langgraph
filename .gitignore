@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+*.duckdb
+*.sqlite
+*.ckpt
+outbox/
+fde2_dealmind_langgraph/data/
+fde4_doc_pipeline/data/invoices/
+fde4_doc_pipeline/data/invoices_unseen_layout/
+fde4_doc_pipeline/data/truth*.json
+fde6_support_agent/data/orders.csv
+fde5_vector_search/results/benchmark_log.txt
